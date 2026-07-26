@@ -1,0 +1,27 @@
+body {
+  font-family: sans-serif;
+  max-width: 500px;
+  margin: 40px auto;
+}
+ 
+form {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+ 
+#title {
+  flex: 1;
+  padding: 6px;
+}
+ 
+.error {
+  color: crimson;
+  min-height: 1.2em;
+}
+ 
+#event-list li {
+  padding: 6px 0;
+  border-bottom: 1px solid #ddd;
+}
+ 

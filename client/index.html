@@ -1,20 +1,25 @@
+
+Index · HTML
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Event Catalog</title>
+  <meta charset="UTF-8">
+  <title>Event Catalog</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Event Catalog</h1>
-    <h2>Add an Event</h2>
-    <form>
-        <label for="title">Title of Event:</label>
-        <input id="title" type="text" />
-        <input type="submit" />
-    </form>
-    <h2>All Events</h2>
-    <ul id="event-list"></ul>
-    <script src="./script.js"></script>
+  <h1>Event Catalog</h1>
+ 
+  <form id="event-form">
+    <input type="text" id="title" placeholder="Event title" required>
+    <button type="submit">Add Event</button>
+  </form>
+ 
+  <p id="error-msg" class="error"></p>
+ 
+  <ul id="event-list"></ul>
+ 
+  <script src="script.js"></script>
 </body>
 </html>
+ 
